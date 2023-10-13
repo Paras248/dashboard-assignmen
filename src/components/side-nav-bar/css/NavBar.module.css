@@ -1,0 +1,35 @@
+.navbar-container {
+    background-color: #040440;
+    min-height: 100vh;
+    width: 18rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.nav-heading-container {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 3rem;
+    padding: 10px;
+}
+
+.nav-heading-container p {
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.nav-heading-container img {
+    transform: rotate(90deg);
+    min-width: 2.5rem;
+}

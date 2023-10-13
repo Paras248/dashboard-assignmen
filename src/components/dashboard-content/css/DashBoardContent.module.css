@@ -1,0 +1,25 @@
+.dashboard-content-container {
+    padding: 2.5rem 3rem;
+    flex: 1;
+}
+
+.dashboard-content-header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard-content-header-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.dashboard-content-header-title h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.dashboard-content-container p {
+    font-size: 25px;
+}
